@@ -17,7 +17,7 @@ function Header(){
                 <div className='col-10  center-it'>
                     <form className={styles.form}>
                         <input className={styles.input} type="text" placeholder="Wyszukaj miejsce marzeń..." />
-                        <button type="submit">SZUKAJ</button>
+                        <button type="submit" className={styles.submit}>SZUKAJ</button>
                     </form>
                 </div>
             </div>

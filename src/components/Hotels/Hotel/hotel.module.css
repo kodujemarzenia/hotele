@@ -1,0 +1,21 @@
+.hotelphoto{
+    background-image: url(../../../assets/images/bg-first.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hotelopis{
+    background-color: #494949;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h2name{
+    color: #fff;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+.mrgbtm{
+    margin-bottom: 25px;
+}

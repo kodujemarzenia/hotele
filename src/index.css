@@ -7,7 +7,7 @@ html{
 	overflow-x: hidden;
 }
 body{
-	background: #fff;
+	background: #222;
 	margin: 0;padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
@@ -67,4 +67,29 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+section{
+  padding: 60px 0px;
+}
+
+/* BUTTON */
+
+.simple-button{
+  background:#878787;
+	padding:15px 60px;
+/* 	border:2px solid #000; */
+	font-size:15px;
+	cursor:pointer;
+	color:#a6d3ff;
+	display:inline-block;
+	margin-bottom:30px;
+	margin-top:30px;
+	text-align:center;
+	transition:all 0.4s ease-out;
+	width:max-content;
+	font-weight:600;
+}
+.simple-button:hover{
+	background:#000;
+	color:#fff;
 }

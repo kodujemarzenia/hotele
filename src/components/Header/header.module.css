@@ -49,3 +49,30 @@
 .upper{
     z-index: 1;
 }
+.submit{
+    all: unset;
+	background:#000000 !important;
+	padding:20px 70px !important;
+	font-size:14px !important;
+	cursor:pointer !important;
+	transition:all 0.75s !important;
+	letter-spacing:1px !important;
+	position:relative !important;
+	overflow:hidden !important;
+	font-weight:400 !important;
+	text-transform:uppercase !important;
+/* 	border-radius:50px 50px !important; */
+	z-index:1 !important;
+	color:#ffffff !important;
+/* 	center-it */
+	display:flex !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+    border-radius: 0px 45px 45px 0px;
+}
+@media screen and (max-width:992px){
+    .submit{
+        border-radius: 45px;
+        margin-top: 25px;
+    }
+}
