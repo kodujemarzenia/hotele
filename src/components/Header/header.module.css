@@ -1,0 +1,51 @@
+.header{
+    padding: 60px 0px;
+    background-image: url(../../assets/images/bg-first.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.input{
+    width: 100%;
+    padding: 20px;
+}
+@media screen and (min-width:992px){
+    .form{
+        display: flex;
+    }
+    .input{
+        border-radius: 45px 0px 0px 45px !important;
+    }
+}
+.h1-main{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+@media screen and (max-width:992px){
+    .h1-main{
+        letter-spacing: 1px;
+    }
+}
+.h4{
+    font-size: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.upper{
+    z-index: 1;
+}
