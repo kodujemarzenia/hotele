@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Hotel(){
+function Hotel(props){
     useEffect(() => {
         AOS.init({
           duration: 600, // Czas trwania animacji (w milisekundach)
@@ -18,11 +18,11 @@ function Hotel(){
                 <div className={`${styles.hotelphoto} col-lg-4`}></div>
                 <div className={`${styles.hotelopis} col-lg-8`}>
                     <h2 className={styles.h2name}>
-                        Stars Hotel,  Warszawa
+                        {props.name},  {props.city}
                     </h2>
-                    <h3>Ocena: 4.8</h3>
+                    <h3>Ocena: {props.rating}</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget metus at mauris pharetra sollicitudin. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam a dictum dolor.
+                        {props.description}
                     </p>
                     <a href="#" className='simple-button'>Zobacz więcej</a>
                 </div>
